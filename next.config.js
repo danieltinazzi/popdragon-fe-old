@@ -10,6 +10,10 @@ const nextConfig = withStoreConfig({
   images: {
     remotePatterns: [
       {
+        protocol: "https" 
+        hostname: "popdragon.up.railway.app"
+      },
+      {
         protocol: "http",
         hostname: "localhost",
       },
