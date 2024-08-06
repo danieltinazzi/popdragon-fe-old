@@ -11,7 +11,7 @@ const nextConfig = withStoreConfig({
     remotePatterns: [
       {
         protocol: "https", 
-        hostname: "popdragon.up.railway.app"
+        hostname: "popdragon.up.railway.app",
       },
       {
         protocol: "http",
